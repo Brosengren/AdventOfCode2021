@@ -3,7 +3,7 @@ def read_integers(filename):
 		return [int(x) for x in f]
 
 
-depths = read_integers("Day1IN.txt")
+depths = read_integers("Day01IN.txt")
 
 count = 0
 
