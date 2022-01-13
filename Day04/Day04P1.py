@@ -19,3 +19,14 @@ print(picks)
 print(boards)
 
 
+#set picks to -1
+for pick in picks:
+    for board in boards:
+        for line in board:
+            for i in range(len(line)):
+                line[i] = -1
+    #check for bingo
+    for board in boards:
+        #check lines
+        for line in board:
+            if
